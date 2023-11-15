@@ -1,0 +1,31 @@
+.product-details {
+    padding: 20px;
+    
+  }
+  
+  .details-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+.img-details{
+    width: 50%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+  
+
+
+  .btn-details {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.796);
+    color: white;
+    cursor: pointer;
+  }

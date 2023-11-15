@@ -1,0 +1,29 @@
+.grid-container{
+    padding: 15px 50px;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card-product{
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-product img {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-title {
+    text-align: center;
+}
+.not-found{
+    font-size: 1.3rem;
+}
